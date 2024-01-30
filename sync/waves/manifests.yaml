@@ -67,7 +67,6 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: maint-page-up
-  namespace: sync
   annotations:
     argocd.argoproj.io/hook: Sync
     argocd.argoproj.io/hook-delete-policy: BeforeHookCreation
@@ -122,7 +121,6 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: maint-page-down
-  namespace: sync
   annotations:
     argocd.argoproj.io/hook: Sync
     argocd.argoproj.io/hook-delete-policy: BeforeHookCreation
