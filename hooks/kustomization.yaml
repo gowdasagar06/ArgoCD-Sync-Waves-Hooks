@@ -6,7 +6,7 @@ resources:
 - dbbackup.yaml
 - logrotate.yaml
 - postsync-job.yaml
-- ./pricelist/
+- pricelist/
 - presync-sa.yaml
 - rb-for-sa.yaml
 - pricelist-wh-ss.yaml
