@@ -6,5 +6,5 @@ resources:
 - postgres-deployment.yaml
 - postgres-service.yaml
 - postgres-seed.yaml
-- vote-deployment.yaml
+#- vote-deployment.yaml
 - vote-service.yaml
