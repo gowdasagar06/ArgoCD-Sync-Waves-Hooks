@@ -3,9 +3,9 @@ kind: Kustomization
 resources:
 - presync-job.yaml
 - dbbackup.yaml
-- logrotate.yaml
-- postsync-job.yaml
-- github.com/gowdasagar06/ArgoCD-Sync-Waves-Hooks/pricelist
-- presync-sa.yaml
-- rb-for-sa.yaml
-- pricelist-wh-ss.yaml
+# - logrotate.yaml
+# - postsync-job.yaml
+# - github.com/gowdasagar06/ArgoCD-Sync-Waves-Hooks/pricelist
+# - presync-sa.yaml
+# - rb-for-sa.yaml
+# - pricelist-wh-ss.yaml
